@@ -1,0 +1,66 @@
+{
+  "generator-jhipster": {
+    "skipJhipsterDependencies": true,
+    "blueprints": [
+      {
+        "name": "@scfhq/generator-jhipster-foundation",
+        "version": "2.4.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "@scfhq/generator-jhipster-foundation",
+        "version": "2.4.0"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "testtls",
+    "jhipsterVersion": "7.3.0",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1653465141588,
+    "configurationType": "configFiles",
+    "scfConfigurationServer": false,
+    "mailType": "mailLocal",
+    "scfMailServer": false,
+    "reactive": false,
+    "authenticationType": "jwt",
+    "authenticationTypeSaml": false,
+    "packageName": "com.santander.app",
+    "serverPort": "8080",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "serviceDiscoveryType": false,
+    "useSplitInfreastructure": true,
+    "clientFramework": "react",
+    "useGReCaptcha": false,
+    "withAdminUi": true,
+    "useExportFunction": false,
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "jwtSecretKey": "MDlmZGIwYzI2MzAxZDhkNzkzZmExMzg3ZTAyYTgyMTY4YWI4NWIwM2NlZDU0ZmVjNDJiNzJiYTE3MTEwNTgwZDM5NzVlMjE4NGFmZjY1ZjhhZTcyZGEyODhlMjE4ZjlkZGUwYTUxMWVhZmE3ODNlMWMyOWQxMDA3NmNjNjhhYjg=",
+    "devServerPort": 9060,
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "languages": ["es"],
+    "enableGradleEnterprise": false
+  }
+}
